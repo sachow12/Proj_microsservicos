@@ -14,16 +14,16 @@ public class Aluno {
 
     @Id
     @Column(name = "id")
-    Long id;
+    Integer id;
 
     @Column(name = "nome")
-    String name;
+    String nome;
 
     @Column(name = "curso")
-    String course;
+    String curso;
 
     @Column(name = "modalidade")
-    String modality;
+    String modalidade;
 
     @Column(name = "status")
     String status;

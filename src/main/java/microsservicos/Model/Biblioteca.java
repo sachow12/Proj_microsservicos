@@ -15,16 +15,16 @@ public class Biblioteca {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
+    Integer id;
 
     @Column(name = "titulo")
-    String title;
+    String titulo;
 
     @Column(name = "autor")
-    String author;
+    String autor;
 
     @Column(name = "ano")
-    Long year;
+    Long ano;
 
     @Column(name = "status")
     String status;

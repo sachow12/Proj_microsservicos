@@ -15,11 +15,11 @@ public class Disciplina {
 
     @Id
     @Column(unique = true, nullable = false, name = "id")
-    Long id;
+    Integer id;
 
     @Column(name = "curso")
-    String course;
+    String curso;
 
     @Column(name = "nome")
-    String name;
+    String nome;
 }
